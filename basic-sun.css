@@ -1,0 +1,32 @@
+
+/*布局*/
+.sun-float-left{float: left;}
+.sun-float-right{float: right;}
+
+/*通用*/
+.sun-notice-error{border-color:#E04343;}
+.sun-notice-success{border-color:#E04343;}
+
+/*模块*/
+/*1.div*/
+.sun-border-elegance{border: solid 1px #DDD;padding: 4px;border-radius: 4px;}
+.sun-border-default{border: solid 1px #DDD;padding: 4px;}
+/*2.input*/
+.sun-input-elegance{cursor: auto;padding: 3px;border: 1px inset;border-radius: 3px;}
+.sun-input-elegance:hover{border: solid 1px #A4C6FD;}
+.sun-input-default{cursor: auto;padding: 3px;border: 1px inset;border-radius: 3px;}
+.sun-input-default:hover{border: solid 1px #A4C6FD;}
+.sun-input-disable{background: #EBEBE4;cursor:default;}
+
+/*3.button*/
+.sun-button-blue{display:inline-block;padding: 4px 12px;cursor:pointer;border-radius: 8px;background-color: #58B0DF;border:solid 1px #2D88BF;color:#FFF;font-size: 16px;line-height: 16px;text-shadow: 0 -1px rgba(0,0,0,0.2);box-shadow: inset 0 1px 0 rgba(255,255,255,0.5);text-align: center;vertical-align: middle;}
+.sun-button-blue:hover{background-color: #399DD8;text-shadow: none;box-shadow: none;}
+.sun-button-red{display:inline-block;padding: 4px 12px;cursor:pointer;border-radius: 8px;background-color: #E04343;border:solid 1px #EE4343;color:#FFF;font-size: 16px;line-height: 16px;text-shadow: 0 -1px rgba(0,0,0,0.2);box-shadow: inset 0 1px 0 rgba(255,255,255,0.5);text-align: center;vertical-align: middle;}
+.sun-button-red:hover{background-color: #D03232;text-shadow: none;box-shadow: none;}
+.sun-button-green{display:inline-block;padding: 4px 12px;cursor:pointer;border-radius: 8px;background-color: #03DF03;border:solid 1px #03DF03;color:#FFF;font-size: 16px;line-height: 16px;text-shadow: 0 -1px rgba(0,0,0,0.2);box-shadow: inset 0 1px 0 rgba(255,255,255,0.5);text-align: center;vertical-align: middle;}
+.sun-button-green:hover{background-color: #24CE24;text-shadow: none;box-shadow: none;}
+.sun-button-default{display:inline-block;padding: 4px 12px;cursor:pointer;border-radius: 8px;background-color: #FFFFFF;border:solid 1px #FFFFFF;color:#FFF;font-size: 16px;line-height: 16px;text-shadow: 0 -1px rgba(0,0,0,0.2);box-shadow: inset 0 1px 0 rgba(255,255,255,0.5);text-align: center;vertical-align: middle;}
+.sun-button-default:hover{background-color: #399DD8;text-shadow: none;box-shadow: none;}
+
+/*4.checkbox*/
+.sun-checkbox-disable{cursor: not-allowed;}

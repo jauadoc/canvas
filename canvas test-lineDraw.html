@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<meta content="always" name="referrer">
+	<meta name="theme-color" content="#2932e1">
+	<title>canvas test</title>
+	<link rel="stylesheet" type="text/css" href="./basic-sun.css">
+	<script src="./jquery-1.4.4.min.js"></script>
+	<script src="./canvas.js"></script>
+</head>
+<html>
+	<body>
+		
+
+		<div id="myCanvas"></div>
+		
+		<script>
+			
+			function dodraw(){
+				var width = test.pageWidth;
+				var height = test.pageHeight;
+				test.ctx.quadraticCurveTo(Math.round(Math.random()*width),Math.round(Math.random()*height),Math.round(Math.random()*width),Math.round(Math.random()*height));
+				test.ctx.stroke();
+			}
+			var test = Object.create(canvasMovie);
+			test.regDrawFunction(dodraw);
+			test.init("myCanvas","2d", $("body").width(), 550,1000);
+			
+		</script> 
+
+	</body>
+</html>
